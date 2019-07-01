@@ -1,0 +1,11 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "intern-repo"]
+	url = https://github.com/thechamp325/javainternship.git
+[branch "master"]
+	remote = intern-repo
+	merge = refs/heads/master
+	rebase = false
